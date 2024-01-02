@@ -1,3 +1,20 @@
 React is javascript library blah blah....
 It can be injected into html using cdn links 
-Now react will come as global object type React in console can play with them...
+Now react will come as global object ,type React in console can play with them...
+React is just a piece of javascript code
+
+------------------------------------------------------
+React is built for diff purposes not only for browser like for mobile devices (React Native)
+react 3d and react for rendering purposes... core of react library...
+             VS
+ReactDom is for browser itself.... reactDom is Dom accessed using this... responsible for all DOM operations
+
+
+--------------------------------------------------------------
+
+React.createElement("h1",{},"hello world!"); react element returns an object....
+
+
+
+
+
