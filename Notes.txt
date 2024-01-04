@@ -16,5 +16,42 @@ React.createElement("h1",{},"hello world!"); react element returns an object....
 
 
 
+----------------------------
+functional component---just a javascript function which returns jsx
+Name of fn compo always starts with CAPITAL letter. (just a convention)
+if in a single line then () not necessary <div><h1>hello</h1></div>
+
+but if in multi line it is mandatory to use ()
+also can omit the return statement...
+
+
+
+functional component are executed via two ways- <FComponent /> like html tag 
+                                                {Fcomponent()} normal fn call
+also you can use react element using curly braces {}
+any piece of javascript code you can execute inside curly braces...
+
+const header = () => {
+
+return (
+    <div>
+    {any react element or any piece of js code}
+    <h1>Hello World! </h1>
+    </div>
+);
+
+also can return react element after all jsx is React.createElement();
+}
+
+
+you can run your own script just modify script:
+npx parcel index.html
+"start":"parcel index.html"
+
+
+
+
+
+
 
 
